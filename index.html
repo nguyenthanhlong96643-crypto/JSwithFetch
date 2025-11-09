@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机猫咪图片查看器</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>随机猫咪图片查看器</h1>
+        <button id="catButton">召唤一只猫咪！</button>
+        <div class="image-container">
+            <img id="catImage" src="" alt="猫咪图片" class="hidden">
+            <div id="counter" class="counter hidden">猫咪ID: <span id="catId">--</span> | 已召唤 <span id="callCount">0</span> 只猫咪</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
